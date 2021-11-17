@@ -1,0 +1,53 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body
+{
+    padding-top: 30px;
+    height: 100vh;
+    font-family: 'Poppins' !important;
+    color:white !important;
+}
+
+header { 
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) , url('assets/office.jpg');
+    background-size: cover;
+    height: 600px;
+}
+
+#profilepic {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.table-home {
+    table-layout: fixed;
+    width: 100%;
+}
+
+.cv2 {
+    background-image : linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('assets/cv2.png');
+    background-position: 50%;
+    background-size : contain;
+    background-repeat: no-repeat;
+}
+
+.cv1 {
+    background-image : linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('assets/cv1.png');
+    background-position: 50%;
+    background-size : contain;
+    background-repeat: no-repeat;
+}
+
+.cv3 {
+    background-image : linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('assets/cv3.png');
+    background-position: 50%;
+    background-size : contain;
+    background-repeat: no-repeat;
+}
